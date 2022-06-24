@@ -1,0 +1,60 @@
+body {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pilih-kategori img {
+    max-height: 75px;
+}
+
+.pilih-kategori .card {
+    border-radius: 30px;
+}
+
+.produk img {
+    max-height: 120px;
+}
+
+.produk .card {
+    border-radius: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.search-bar {
+    border-radius: 15px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 76.7vh;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.gambar-produk {
+    background-color: #f1f1f1;
+    border-width: 0;
+    border-radius: 30px;
+
+}
+
+.ukuran-gambar {
+    max-width: 100%;
+    max-height: 400px;
+}
