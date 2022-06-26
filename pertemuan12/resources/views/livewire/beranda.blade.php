@@ -16,6 +16,7 @@
                         <img src="{{ url('assets/kategori') }}/{{ $kategori->gambar }}" class="img-fluid">
                     </div>
                 </div>
+                <h6 class="text-center mt-2 mb-4 link"><strong>{{ $kategori->nama }}</strong></h6>
                 </a>
             </div>  
             @endforeach        
@@ -23,7 +24,7 @@
     </section>
 
     {{-- BANNER --}}
-    <div class="banner mt-5">
+    <div class="banner">
         <img src="{{ url('assets/slider/slider1.jpg') }}" alt="">
     </div>
 

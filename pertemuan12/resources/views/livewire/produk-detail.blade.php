@@ -61,7 +61,7 @@
                                 <td colspan="3">
                                     {{-- <button type="submit" class="btn btn-dark w-100" @if($produk->ketersediaan !== 1) disabled @endif><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Masukkan Keranjang</button> --}}
                                     <a href="https://wa.me/6282387231371?text=Halo Murni!%0ASaya mau pesan:%0A%0A{{ $produk->nama }}%0Asebanyak {{ $fetch }} unit">
-                                        <button type="submit" class="btn btn-dark w-100" @if($produk->ketersediaan !== 1) disabled @endif><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Masukkan Keranjang</button>
+                                        <button type="submit" class="btn btn-dark w-100" @if($produk->ketersediaan !== 1) disabled @endif>Buat Pesanan</button>
                                     </a>
                                 </td>
                             </tr>
