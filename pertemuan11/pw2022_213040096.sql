@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=3044273053ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2619568445ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -56,7 +56,7 @@
 
 <script data-cfasync="false" type="text/javascript">
 // <![CDATA[
-CommonParams.setAll({common_query:"",opendb_url:"index.php?route=/database/structure",lang:"en",server:"1",table:"",db:"",token:"6139223f7b2a625c6f393e70377d3745",text_dir:"ltr",show_databases_navigation_as_tree:true,pma_text_default_tab:"Browse",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:false,LimitChars:"50",pftext:"",confirm:true,LoginCookieValidity:"1440",session_gc_maxlifetime:"1440",logged_in:true,is_https:false,rootPath:"/phpmyadmin/",arg_separator:"&",PMA_VERSION:"5.1.3",auth_type:"config",user:"root"});
+CommonParams.setAll({common_query:"",opendb_url:"index.php?route=/database/structure",lang:"en",server:"1",table:"",db:"",token:"375167244923486e7337326344676078",text_dir:"ltr",show_databases_navigation_as_tree:true,pma_text_default_tab:"Browse",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:false,LimitChars:"50",pftext:"P",confirm:true,LoginCookieValidity:"1440",session_gc_maxlifetime:"1440",logged_in:true,is_https:false,rootPath:"/phpmyadmin/",arg_separator:"&",PMA_VERSION:"5.1.3",auth_type:"config",user:"root"});
 var firstDayOfCalendar = '0';
 var themeImagePath = '.\/themes\/pmahomme\/img\/';
 var mysqlDocTemplate = '.\/url.php\u003Furl\u003Dhttps\u00253A\u00252F\u00252Fdev.mysql.com\u00252Fdoc\u00252Frefman\u00252F8.0\u00252Fen\u00252F\u002525s.html';
@@ -260,7 +260,7 @@ $(function() {
       </div>
       <div id="pma_navigation_tree" class="list_container synced highlight autoexpand">
 
-  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=pw2022_213040096&table=user">`pw2022_213040096`.`user`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=pw2022_213040096&table=mahasiswa">`pw2022_213040096`.`mahasiswa`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
+  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=murni&table=users">`murni`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=pw2022_213040096&table=user">`pw2022_213040096`.`user`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=pw2022_213040096&table=mahasiswa">`pw2022_213040096`.`mahasiswa`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 
@@ -284,7 +284,7 @@ $(function() {
                   <div id="pma_navigation_settings"><div class="page_settings"><form method="post" action="index.php&#x3F;route&#x3D;&#x25;2Fexport&amp;server&#x3D;1" class="config-form disableAjax">
   <input type="hidden" name="tab_hash" value="">
       <input type="hidden" name="check_page_refresh" id="check_page_refresh" value="">
-    <input type="hidden" name="token" value="6139223f7b2a625c6f393e70377d3745">
+    <input type="hidden" name="token" value="375167244923486e7337326344676078">
   <input type="hidden" name="submit_save" value="Navi">
 <ul class="tabs responsivetable row">
       <li><a href="#Navi_panel">Navigation panel</a></li>
@@ -561,7 +561,45 @@ $.extend(defaultValues, {
                     <span class="hide" id="instructions-1">
                         Press Enter to execute query                    </span>
                 </div>
-                            </div><!-- console_message_container -->
+                                                            <div class="message history collapsed hide select"
+                            targetdb="murni" targettable="users">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>murni</span>
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                            : <span>During current session</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `users`</span>
+                        </div>
+                                                </div><!-- console_message_container -->
             <div class="query_input">
                 <span class="console_query_input"></span>
             </div>
